@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Day3 {
-
     char[] two = {'a', 'b', 'c'};
     char[] three = {'d', 'e', 'f'};
     char[] four = {'g', 'h', 'i'};
