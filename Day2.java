@@ -64,6 +64,7 @@ public class Day2 {
         return result;
     }
 
+    /*
     private static void dfs_iterative(int i, int j, boolean[][] checked, char[][] grid) {
         Queue<int[]> queue = new LinkedList<>();
         queue.add(new int[]{i, j});
@@ -78,7 +79,7 @@ public class Day2 {
             }
         }
     }
-
+    */
     // DFS & BFS
     // --> Initialize the Queue/Stack
     // --> Add initial value into the DS
