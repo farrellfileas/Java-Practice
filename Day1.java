@@ -19,7 +19,7 @@ public class Day1 {
      * @param wall list of bricks that make up the wall
      * @return the least amount of bricks needed to be removed to pass the wall
      */
-    private static int leastBricks(List<List<Integer>> wall) {
+    private static int leastBricks(List<List<Integer>> wall) {  
         HashMap<Integer, Integer> totalOccurance = new HashMap<>();
         int total = 0;
         for (int i = 0; i < wall.size(); i++) {
