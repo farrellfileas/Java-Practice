@@ -13,7 +13,7 @@ public class Day9 {
         // = (0 + 17) + 5
         // = 17 + 5
         // = 22
-        System.out.println(evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"});
+        System.out.println(evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}));
     }
 
     private static int evalRPN(String[] tokens) {
