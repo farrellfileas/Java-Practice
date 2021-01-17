@@ -21,32 +21,6 @@ public class Day9 {
     }
 
     private static int evalRPN(String[] tokens) {
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < tokens.length; i++) {
-            if (!tokens[i].equals("+") && !tokens[i].equals("-") && !tokens[i].equals("/") && !tokens[i].equals("*")) {
-                int number = Integer.parseInt(tokens[i]);
-                stack.push(number);
-            }
-            else {
-                int right = stack.pop();
-                int left = stack.pop();
-                int total = 0;
-
-                if(tokens[i].equals("+")) {
-                    total += right + left;
-                }
-                if(tokens[i].equals("-")) {
-                    total += left - right;
-                }
-                if(tokens[i].equals("*")) {
-                    total += right * left;
-                }
-                if(tokens[i].equals("/")) {
-                    total += left / right;
-                }
-                stack.push(total);
-            }
-        }
-        return stack.get(0);
+        return 0;
     }
 }
